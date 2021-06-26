@@ -31,6 +31,34 @@ input {
     padding: 5px;
     font-size: 15px;
 }
+#profiledisplay {
+    display: block;
+    width: 10%;
+    border-radius: 50%;
+}
+#profileimage {
+    display: none;
+    width: 10%;
+    border-radius: 50%;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: auto auto;
+    background-color: #eeeeee;
+  }
+.grid-containerA {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: auto auto auto;
+    background-color: #eeeeee;
+}
+  .grid-item {
+    font-family: Verdana;
+    font-size: 15px;
+    color: darkgreen;
+    padding: 5px;
+  }
 
 
 .con-header {
@@ -106,16 +134,18 @@ legend {
     font-family: Verdana;
     text-align:left;
     margin: 5px;
+    margin-bottom: 3px;
     height: 20px;
 } 
 .input-groupA input{
     color: rgb(104, 192, 138);
-    text-align:left;
-    height: 20px;
-    width: 30%;
+    text-align: justify;
+    height: 30px;
+    width: 50%;
     font-family: Verdana;
     padding: 5px 10px;
     font-size: 15px;
     border-radius: 10px;
     border: 1px solid rgb(28, 194, 50);
+    margin-bottom: 3px;
 }
