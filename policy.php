@@ -62,7 +62,7 @@
                             <option value="phd">PhD</option>
                         </select><br>
                         <label style="margin-right:143px;">Phone Number</label>
-                        <input type="text" name="phonenuber" placeholder="Enter Phone Number"><br>
+                        <input type="text" name="phonenumber" placeholder="Enter Phone Number"><br>
                         <label style="margin-right:214px;">Email</label>
                         <input type="email" name="email" placeholder="Enter Email"><br>
                     </div>
@@ -336,7 +336,7 @@
                             <option value="drivinglicense">Driving License</option>
                         </select><br>
                         <label style="margin-right:189px;">Verification ID</label>
-                        <input type="text" name="verificationid" placeholder="Enter Verification ID"><br>
+                        <input type="text" name="verificationId" placeholder="Enter Verification ID"><br>
                         <label style="margin-right:158px;">Uplaod Document</label>
                         <input type="file" name="document"><br>
                 </div>                   
